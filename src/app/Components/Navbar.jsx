@@ -32,7 +32,7 @@ export default function Navbar() {
   const isActive = (href) => href === pathname;
 
   return (
-    <header className="bg-white shadow border border-white/20 fixed w-full z-50 px-4 md:px-5 lg:px-30 py-4 md:py-6 text-nowrap ">
+    <header className="bg-white shadow border border-white/20 fixed w-full z-50 mt-13 px-4 md:px-5 lg:px-30 py-4 md:py-6 text-nowrap ">
       <div className="flex justify-between items-center ">
         <Link href="/">
           <Image
